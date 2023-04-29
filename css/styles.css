@@ -98,6 +98,9 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.address-list {
+  gap: 40px;
+}
 .mail {
   display: flex;
   align-items: center;
