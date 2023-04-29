@@ -35,10 +35,6 @@ button {
 }
 .header {
   border-bottom: 1px solid var(--accent);
-  width: 1440px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 0;
 }
 .header-box {
   display: flex;
@@ -53,7 +49,9 @@ button {
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
-
+.menu-item {
+  padding: 24px 0;
+}
 .container {
   width: 1158px;
   margin-left: auto;
@@ -105,6 +103,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
+  margin-right: 24px;
 }
 .mail:hover,
 .mail:focus {
