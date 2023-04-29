@@ -51,6 +51,7 @@ button {
 }
 .menu-item {
   padding: 24px 0;
+  gap: 40px;
 }
 .container {
   width: 1158px;
